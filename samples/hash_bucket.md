@@ -2,7 +2,7 @@
 https://liusida.github.io/2016/10/30/hash-bucket/
 
 ### 1. Hash bucket    
-~~~~    
+```python    
 import pandas as pd
 
 data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
@@ -11,10 +11,10 @@ data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
 
 data = pd.DataFrame(data)
 print(pd.get_dummies(data, columns=['state','year']))
-~~~~   
+```
 
 ### 2. Pandas dummies    
-~~~~
+```python
 import pandas as pd
 
 data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
@@ -23,4 +23,4 @@ data = {'state': ['Ohio', 'Ohio', 'Ohio', 'Nevada', 'Nevada'],
 
 data = pd.DataFrame(data)
 print(pd.get_dummies(data, columns=['state','year']))
-~~~~ 
+``` 
